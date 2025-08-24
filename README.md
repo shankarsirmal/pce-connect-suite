@@ -62,7 +62,7 @@ Campus-Connect/
 To run this project locally:
 
 # Clone the repository
-git clone https://github.com/shankarsirmal/campus-chorus-hub.git
+git clone https://github.com/shankarsirmal/pce-connect-suit.git
 
 # Navigate to the project folder
 cd campus-chorus-hub

@@ -1,73 +1,74 @@
-# Welcome to your Lovable project
+Campus Connect 🎓
 
-## Project info
+Campus Connect – Pillai College of Engineering
+Your central hub for everything at Pillai College of Engineering. Connect, explore, and engage with campus life like never before.
 
-**URL**: https://lovable.dev/projects/0813dbbb-2cd7-4990-9b7f-cca8c4058b23
+🚀 About the Project
 
-## How can I edit this code?
+Campus Connect is a web-based platform designed to bring together students, faculty, and organizations of Pillai College of Engineering.
+It provides a centralized space to:
 
-There are several ways of editing your application.
+Explore Events happening in college.
 
-**Use Lovable**
+Join and engage with Clubs.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/0813dbbb-2cd7-4990-9b7f-cca8c4058b23) and start prompting.
+Use the Forum to share ideas and discussions.
 
-Changes made via Lovable will be committed automatically to this repo.
+Access the Lost & Found section.
 
-**Use your preferred IDE**
+Navigate the campus easily with the Campus Map.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+This project aims to enhance campus interaction and make information accessible to all students in a modern, responsive, and user-friendly way.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+✨ Features
 
-Follow these steps:
+📅 Events – Stay updated with upcoming events, workshops, and seminars.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+👥 Clubs – Discover student organizations and join clubs that interest you.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+💬 Forum – Interact with peers, ask questions, and share knowledge.
 
-# Step 3: Install the necessary dependencies.
-npm i
+🔍 Lost & Found – Report or find lost items within the campus.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+🗺️ Campus Map – Navigate the campus with ease.
 
-**Edit a file directly in GitHub**
+⚡ Responsive Design – Works seamlessly on desktop and mobile.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+🛠️ Tech Stack
 
-**Use GitHub Codespaces**
+Frontend: HTML, CSS, JavaScript
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Backend: Node.js
 
-## What technologies are used for this project?
+Hosting: Vercel
 
-This project is built with:
+Version Control: Git & GitHub
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+📂 Project Structure
+Campus-Connect/
+│── index.html        # Homepage
+│── events.html       # Events section
+│── clubs.html        # Clubs section
+│── forum.html        # Forum page
+│── lost-found.html   # Lost & Found page
+│── map.html          # Campus Map
+│── css/              # Stylesheets
+│── js/               # JavaScript files
+│── assets/           # Images & icons
+│── README.md         # Documentation
 
-## How can I deploy this project?
+⚡ Installation & Setup
 
-Simply open [Lovable](https://lovable.dev/projects/0813dbbb-2cd7-4990-9b7f-cca8c4058b23) and click on Share -> Publish.
+To run this project locally:
 
-## Can I connect a custom domain to my Lovable project?
+# Clone the repository
+git clone https://github.com/shankarsirmal/campus-chorus-hub.git
 
-Yes, you can!
+# Navigate to the project folder
+cd campus-chorus-hub
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+# Install dependencies
+npm install
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+# Start local server
+npm start

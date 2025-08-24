@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Calendar, Users, MessageSquare, Search, MapPin, ArrowRight, Star, Trophy, Zap } from 'lucide-react';
-const pceCampus = '/lovable-uploads/0f28df89-e24b-43cb-8130-86f4000fa820.png';
+import campusHero from '@/assets/campus-hero.jpg';
 
 const Index = () => {
   const quickActions = [
@@ -59,11 +59,9 @@ const Index = () => {
       <section className="relative overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(${pceCampus})` }}
+          style={{ backgroundImage: `url(${campusHero})` }}
         >
-          <div className="absolute inset-0 bg-gradient-to-br from-red-500/20 via-yellow-500/20 to-green-500/20"></div>
-          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/30"></div>
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,0,0.1)_0%,rgba(255,0,0,0.1)_50%,rgba(0,255,0,0.1)_100%)]"></div>
+          <div className="absolute inset-0 bg-gradient-hero bg-opacity-80"></div>
         </div>
         
         <div className="relative container mx-auto px-4 py-24 text-center">

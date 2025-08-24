@@ -61,7 +61,7 @@ const Index = () => {
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: `url(${campusHero})` }}
         >
-          <div className="absolute inset-0 bg-gradient-hero bg-opacity-80"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-campus-blue/80 to-campus-purple/80"></div>
         </div>
         
         <div className="relative container mx-auto px-4 py-24 text-center">
